@@ -1,0 +1,175 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+header {
+   background-color: #BA5624;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/*Background css*/
+body {
+    margin-bottom: 60px;
+    background-color: #FFE5B4;
+}
+
+/*My work page css*/
+
+.my-work-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+    .my-work-section h1 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .my-work-section .craft-items {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
+    }
+
+    .my-work-section .craft-item {
+        width: 300px;
+        margin: 20px;
+        padding: 15px;
+        background-color: #FCDE9C;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+        .my-work-section .craft-item img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .my-work-section .craft-item h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .my-work-section .craft-item p {
+            margin-bottom: 10px;
+        }
+
+    .my-work-section .add-to-cart-btn {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #BA5624;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        .my-work-section .add-to-cart-btn:hover {
+            background-color: #FFA552;
+        }
+
+/* Home page slideshow css*/
+
+.mySlides {
+    display: none;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+    text-align: center; /* Center the image horizontally */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block; /* Display images as inline blocks */
+    vertical-align: middle; /* Align images vertically */
+}
+
+/* Navigation buttons */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: background-color 0.3s;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+    .prev:hover, .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    /*Heading*/
+.welcome-container {
+    display: flex;
+    align-items: center; /* Vertically center items */
+    justify-content: center; /* Horizontally center items */
+}
+
+/*Heading*/
+.contact-container {
+    display: flex;
+    align-items: center; /* Vertically center items */
+    justify-content: center; /* Horizontally center items */
+}
+
+
+
+/*Footer css*/
+
+footer {
+    background-color: #24262b;
+    position: relative;
+    text-align: center;
+}
